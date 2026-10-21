@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <!-- Gradients & Shadows -->
+    <linearGradient id="capGrad" x1="120" y1="60" x2="380" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0066FF"/>
+      <stop offset="100%" stop-color="#003EAA"/>
+    </linearGradient>
+    <linearGradient id="headGrad" x1="160" y1="160" x2="352" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2188FF"/>
+      <stop offset="100%" stop-color="#0055D4"/>
+    </linearGradient>
+    <linearGradient id="bluePageGrad" x1="120" y1="280" x2="250" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0088FF"/>
+      <stop offset="100%" stop-color="#0044CC"/>
+    </linearGradient>
+    <linearGradient id="greenPageGrad" x1="262" y1="280" x2="392" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#00E599"/>
+      <stop offset="100%" stop-color="#00A86B"/>
+    </linearGradient>
+    <linearGradient id="tasselGrad" x1="256" y1="110" x2="360" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#003EAA"/>
+      <stop offset="100%" stop-color="#002875"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Left Headphone Ear -->
+  <rect x="135" y="195" width="26" height="55" rx="13" fill="#0055D4" />
+  <rect x="140" y="202" width="16" height="41" rx="8" fill="#2188FF" />
+
+  <!-- Right Headphone Ear -->
+  <rect x="351" y="195" width="26" height="55" rx="13" fill="#0055D4" />
+  <rect x="356" y="202" width="16" height="41" rx="8" fill="#2188FF" />
+
+  <!-- Robot Head Base Outer -->
+  <rect x="150" y="165" width="212" height="142" rx="71" fill="url(#headGrad)" />
+
+  <!-- Robot Visor Screen (Navy Blue) -->
+  <rect x="172" y="182" width="168" height="106" rx="48" fill="#0B1A30" />
+
+  <!-- Friendly Smiling Eyes (Teal/Emerald ^_^) -->
+  <path d="M 200 236 C 205 218, 225 218, 230 236" stroke="#00E599" stroke-width="8" stroke-linecap="round" fill="none" />
+  <path d="M 282 236 C 287 218, 307 218, 312 236" stroke="#00E599" stroke-width="8" stroke-linecap="round" fill="none" />
+
+  <!-- Open Book Wings Below Head -->
+  <!-- Left Blue Pages Layer 2 (Bottom) -->
+  <path d="M 248 340 C 200 325, 145 330, 115 348 C 122 360, 175 352, 248 368 Z" fill="#003399" />
+  <!-- Left Blue Pages Layer 1 (Top) -->
+  <path d="M 248 305 C 190 288, 140 295, 122 312 C 125 328, 180 322, 248 340 Z" fill="url(#bluePageGrad)" />
+
+  <!-- Right Green Pages Layer 2 (Bottom) -->
+  <path d="M 264 340 C 312 325, 367 330, 397 348 C 390 360, 337 352, 264 368 Z" fill="#008855" />
+  <!-- Right Green Pages Layer 1 (Top) -->
+  <path d="M 264 305 C 322 288, 372 295, 390 312 C 387 328, 332 322, 264 340 Z" fill="url(#greenPageGrad)" />
+
+  <!-- Graduation Cap (Mortarboard) -->
+  <!-- Cap Skull Base Underneath -->
+  <path d="M 188 152 C 205 168, 307 168, 324 152 L 332 165 C 307 185, 205 185, 180 165 Z" fill="#002D80" />
+  
+  <!-- Diamond Cap Top -->
+  <polygon points="256,68 392,130 256,176 120,130" fill="url(#capGrad)" />
+  <polygon points="256,76 376,130 256,170 136,130" fill="#004FCC" opacity="0.4" />
+
+  <!-- Cap Center Button -->
+  <ellipse cx="256" cy="130" rx="8" ry="6" fill="#002D80" />
+
+  <!-- Cap Tassel Ribbon & Bell -->
+  <path d="M 256 130 C 285 130, 348 142, 354 175" stroke="#002D80" stroke-width="5" stroke-linecap="round" fill="none" />
+  <circle cx="355" cy="178" r="5" fill="#002D80" />
+  <path d="M 353 182 L 348 200 L 362 200 Z" fill="#002D80" />
+</svg>

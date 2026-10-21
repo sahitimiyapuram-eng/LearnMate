@@ -1,0 +1,6 @@
+{
+  "name": "LearnMate AI",
+  "description": "Your personal AI-powered learning companion for students. Features personalized tutoring, adaptive quizzes, smart notes summarization, flashcards, and intelligent study planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
